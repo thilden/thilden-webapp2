@@ -1,6 +1,6 @@
 import * as http from 'http'
 
-const port = 4100
+const port = 8080
 
 const server = http.createServer((req, res) => {
   res.writeHead(200)
